@@ -40,7 +40,8 @@ header {
       background: url(../img/ks.png) center left no-repeat;
       padding-left: 30px; }
   header .toggle {
-    width: 20px; }
+    width: 20px;
+    margin: calc( 20px - -25px); }
     header .toggle span {
       background: #FFF;
       height: 3px;
@@ -60,6 +61,9 @@ section {
     padding: 100px 0px; }
     section.why-us .row {
       margin-bottom: 80px; }
+    @media screen and (max-width: 990px) {
+      section.why-us h3, section.why-us p {
+        text-align: center; } }
   section.callback {
     background: url(../img/callback.jpg);
     padding: 40px 0; }

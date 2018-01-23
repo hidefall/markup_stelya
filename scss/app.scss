@@ -54,6 +54,7 @@ header {
 	}
 	.toggle {
 		width: 20px;
+		margin: calc( 20px - -25px);
 		span {
 			background: #FFF;
 			height: 3px;
@@ -76,6 +77,11 @@ section{
 		padding: 100px 0px;
 		.row {
 			margin-bottom: 80px;
+		}
+		h3, p {
+			@media screen and (max-width: 990px) {
+				text-align: center;
+			}
 		}
 	}
 	&.callback {
